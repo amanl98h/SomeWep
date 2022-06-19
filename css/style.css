@@ -1,0 +1,272 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .header_top {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     background: #F2F2F2;
+     padding: 60px 0;
+ }
+
+ .main_title {
+     color: #0088A2;
+     font-family: 'Josefin Sans';
+     font-size: 60px;
+     font-weight: 400;
+     margin-left: 30px;
+ }
+
+ .menu {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     height: 50px;
+     align-items: center;
+ }
+
+ .menu li {
+     width: 20%;
+     text-align: center;
+     background: #808080;
+     height: 60px;
+     transition: 0.7s;
+     align-items: center;
+     height: 50px;
+ }
+
+ .menu li:hover {
+     background: #0088A2;
+ }
+
+ .menu_item {
+     text-decoration: none;
+     font-family: 'Open Sans';
+     font-weight: 400;
+     font-size: 30px;
+     color: #fff;
+ }
+
+ .header_bottom {
+     width: 100%;
+ }
+
+ .work {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .work_cards {
+     width: 30%;
+     position: relative;
+
+ }
+
+ .work_cards img {
+     width: 100%;
+ }
+
+ .work_cards p {
+     position: absolute;
+     top: 43%;
+     left: 9%;
+     font-family: 'Open sans';
+     font-weight: 600;
+     font-size: 23px;
+     color: #fff;
+     line-height: 32px;
+     text-align: center;
+ }
+
+ .work_main {
+     padding: 70px 0;
+ }
+
+ .app h2 {
+     color: #0088A2;
+     font-family: 'Open sans';
+     font-weight: 400;
+     font-size: 60px;
+     text-align: center;
+     padding: 50px 0;
+ }
+
+ .video {
+     width: 100%;
+ }
+
+ .app_background {
+     width: 100%;
+     position: relative;
+ }
+
+ .play {
+     position: absolute;
+     top: 40%;
+     left: 44%;
+ }
+
+ .question {
+     width: 80%;
+     height: 600px;
+     margin: 60px auto;
+     position: relative;
+
+ }
+
+ .question_cards {
+     position: absolute;
+     height: 80%;
+ }
+
+ .question_cards:nth-child(1) {
+     left: 0;
+ }
+
+ .question_cards:nth-child(2) {
+     left: 18%;
+ }
+
+ .question_cards:nth-child(3) {
+     left: 36%;
+ }
+
+ .question_cards:nth-child(4) {
+     left: 54%;
+ }
+
+ .question_cards:nth-child(5) {
+     left: 72%;
+ }
+
+ .question_cards:nth-child(even) {
+     top: 30px;
+ }
+
+ .project {
+     width: 60%;
+     margin: 60px auto;
+ }
+
+ .project h3 {
+     color: #0088A2;
+     font-family: 'Open sans';
+     font-weight: 400;
+     font-size: 60px;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ .project p {
+     color: #707070;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ .download h3 {
+     color: #0088A2;
+     font-family: 'Open sans';
+     font-weight: 400;
+     font-size: 60px;
+     text-align: center;
+     padding: 40px 0;
+ }
+
+ .main_download {
+     width: 100%;
+
+ }
+
+ .download_icons {
+
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ .main_download img {
+     width: 30%;
+     position: absolute;
+     margin: 0 30px;
+ }
+
+ .download {
+     margin: 25px 0;
+ }
+
+ .android {
+     width: 450px;
+ }
+
+ .down_text {
+     width: 80%;
+     margin: 100px auto;
+ }
+
+ .down_text p {
+     color: #707070;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ footer {
+     background: #0088A2;
+ }
+
+ footer h3 {
+     font-family: 'Josefin Sans';
+     font-weight: 600;
+     font-size: 60px;
+     color: #fff;
+     text-align: center;
+     padding: 50px 0;
+ }
+
+ .network {
+     display: flex;
+     justify-content: space-between;
+     width: 30%;
+     margin: 0 auto;
+ }
+
+ .some_info {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     margin: 0 auto;
+     padding: 40px 0;
+ }
+
+ .block_info {
+     flex: 0 1 30%;
+     text-align: center;
+ }
+
+ .some_info h4 {
+     font-family: 'Open Sans';
+     font-weight: 400;
+     font-size: 32px;
+     text-align: center;
+     color: #FDFDFD;
+     padding: 50px 0;
+ }
+
+ .some_info p {
+     font-family: 'Open Sans';
+     font-weight: 400;
+     font-size: 26px;
+     color: #fff;
+ }
